@@ -11,13 +11,20 @@ const Signup = () => {
           <input
             type="text"
             id="userName"
-            className="border border-[#9E2F93]"
+            className="border-b border-white p-1 pl-3 bg-transparent focus:bg-transparent focus:outline-none text-white"
+            placeholder="User Name"
           />
-          <input type="mail" id="mail" className="border border-[#9E2F93]" />
+          <input
+            type="mail"
+            id="mail"
+            className="border-b border-white p-1 pl-3 rounded-lg bg-transparent focus:bg-transparent focus:outline-none text-white"
+            placeholder="Email address"
+          />
           <input
             type="password"
             id="password"
-            className="border border-[#9E2F93]"
+            className="border-b border-white p-1 pl-3 rounded-lg bg-transparent focus:bg-transparent focus:outline-none text-white"
+            placeholder="Password"
           />
         </div>
         <div></div>
